@@ -50,6 +50,8 @@ header{
     display: flex;
     flex-direction: row;
     margin: 20px;
+    max-width: 100%;
+    height: auto;
 }
 img{
     border-radius: 5px;
@@ -69,9 +71,10 @@ h2{
 .assifusa{
     text-align: center;
 }
-@media screen and (max-width:600px){
-    .principal, body{
+@media screen and (max-width:800px){
+    .principal, body, .img1{
         width:100%;
+        height: 100%;
         flex-direction: column;
         padding: 0px;
     }
